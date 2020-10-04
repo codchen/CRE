@@ -4,7 +4,8 @@ First, create a virtual environment with conda: `conda create -n cre python=3.7`
 Then, install all dependencies with `pip install -r requirements.txt`
 
 ## Data
-Download data from , unzip it, and move all files under CRE/data
+Download data from https://drive.google.com/file/d/12rcJdauoluBCUV-iPX9lCDYaNcaUZa7f/view?usp=sharing
+Then unzip it and move all files under CRE/data
 
 ## Training & Prediction
 Open `run/train_and_predict.py` and scroll to the bottom. Comment out any models that you don't want to run for (in other words, leave only the models you want to run uncommented). For example, if you want to run `cnn+TransE` and `transformer+ComplEx`, the bottom of `run/train_and_predict.py` should look like:
