@@ -1,0 +1,8 @@
+alt_test_0
+alt_test_1
+alt_test_2
+alt_train_0
+alt_train_1
+alt_train_2
+data/*.csv
+data/*.txt
